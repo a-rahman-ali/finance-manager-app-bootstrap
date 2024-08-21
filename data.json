@@ -1,0 +1,425 @@
+{
+  "usersLogin": [
+    {
+      "id": "1",
+      "username": "user1",
+      "email": "user1@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "email": "user2@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "3",
+      "username": "user3",
+      "email": "user3@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "4",
+      "username": "user4",
+      "email": "user4@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "5",
+      "username": "user5",
+      "email": "user5@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "6",
+      "username": "user6",
+      "email": "user6@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "7",
+      "username": "Abdul Rahman",
+      "email": "abdul.rahman@amiti.in",
+      "password": "password"
+    },
+    {
+      "id": "8",
+      "username": "user",
+      "email": "user@gmail.com",
+      "password": "password"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1",
+      "username": "user1",
+      "totalBudget": 4200,
+      "categories": {
+        "Groceries": [
+          {
+            "date": "2024-06-08",
+            "amount": 120,
+            "description": "Bi-weekly groceries"
+          },
+          {
+            "date": "2024-06-06",
+            "amount": 123,
+            "description": "Bread"
+          },
+          {
+            "date": "2024-06-01",
+            "amount": 150.75,
+            "description": "Weekly groceries"
+          }
+        ],
+        "Entertainment": [
+          {
+            "date": "2024-06-05",
+            "amount": 200,
+            "description": "Concert tickets"
+          },
+          {
+            "date": "2024-06-08",
+            "amount": 270,
+            "description": "Amusement Park"
+          }
+        ],
+        "Utilities": [
+          {
+            "date": "2024-06-03",
+            "amount": 75,
+            "description": "Electricity bill"
+          },
+          {
+            "date": "2024-06-02",
+            "amount": 50,
+            "description": "Monthly bus pass"
+          },
+          {
+            "date": "2024-06-10",
+            "amount": 20,
+            "description": "Taxi fare"
+          }
+        ],
+        "Others": [
+          {
+            "date": "2024-06-07",
+            "amount": 100,
+            "description": "Miscellaneous expenses"
+          },
+          {
+            "date": "2024-07-01",
+            "amount": 1234,
+            "description": "mom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "totalBudget": 3000,
+      "categories": {
+        "Groceries": [
+          {
+            "date": "2024-06-01",
+            "amount": 100,
+            "description": "Weekly groceries"
+          }
+        ],
+        "Entertainment": [
+          {
+            "date": "2024-06-01",
+            "amount": 200,
+            "description": "Concert tickets"
+          }
+        ],
+        "Utilities": [
+          {
+            "date": "2024-06-03",
+            "amount": 75,
+            "description": "Electricity bill"
+          },
+          {
+            "date": "2024-06-10",
+            "amount": 45,
+            "description": "Water bill"
+          },
+          {
+            "date": "2024-06-03",
+            "amount": 60,
+            "description": "Gas for car"
+          }
+        ],
+        "Others": [
+          {
+            "date": "2024-06-05",
+            "amount": 50,
+            "description": "Miscellaneous expenses"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "username": "user3",
+      "totalBudget": 4000,
+      "categories": {
+        "Groceries": [
+          {
+            "date": "2024-06-01",
+            "amount": 200,
+            "description": "Weekly groceries"
+          },
+          {
+            "date": "2024-06-08",
+            "amount": 150,
+            "description": "Bi-weekly groceries"
+          }
+        ],
+        "Entertainment": [
+          {
+            "date": "2024-06-05",
+            "amount": 250,
+            "description": "Concert tickets"
+          }
+        ],
+        "Utilities": [
+          {
+            "date": "2024-06-03",
+            "amount": 90,
+            "description": "Electricity bill"
+          },
+          {
+            "date": "2024-06-02",
+            "amount": 80,
+            "description": "Monthly bus pass"
+          },
+          {
+            "date": "2024-06-10",
+            "amount": 30,
+            "description": "Taxi fare"
+          }
+        ],
+        "Others": [
+          {
+            "date": "2024-06-07",
+            "amount": 120,
+            "description": "Miscellaneous expenses"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "username": "user4",
+      "totalBudget": 3500,
+      "categories": {
+        "Groceries": [
+          {
+            "date": "2024-06-01",
+            "amount": 180,
+            "description": "Weekly groceries"
+          },
+          {
+            "date": "2024-06-08",
+            "amount": 140,
+            "description": "Bi-weekly groceries"
+          }
+        ],
+        "Entertainment": [
+          {
+            "date": "2024-06-05",
+            "amount": 220,
+            "description": "Concert tickets"
+          }
+        ],
+        "Utilities": [
+          {
+            "date": "2024-06-03",
+            "amount": 85,
+            "description": "Electricity bill"
+          },
+          {
+            "date": "2024-06-02",
+            "amount": 70,
+            "description": "Monthly bus pass"
+          },
+          {
+            "date": "2024-06-10",
+            "amount": 25,
+            "description": "Taxi fare"
+          }
+        ],
+        "Others": [
+          {
+            "date": "2024-06-07",
+            "amount": 110,
+            "description": "Miscellaneous expenses"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "username": "user5",
+      "totalBudget": 4377,
+      "categories": {
+        "Groceries": [
+          {
+            "date": "2024-06-01",
+            "amount": 160.33,
+            "description": "Weekly groceries"
+          },
+          {
+            "date": "2024-06-08",
+            "amount": 130.71,
+            "description": "Bi-weekly groceries"
+          }
+        ],
+        "Entertainment": [
+          {
+            "date": "2024-06-05",
+            "amount": 210.43,
+            "description": "Concert tickets"
+          }
+        ],
+        "Utilities": [
+          {
+            "date": "2024-06-03",
+            "amount": 95.07,
+            "description": "Electricity bill"
+          },
+          {
+            "date": "2024-06-02",
+            "amount": 55.65,
+            "description": "Monthly bus pass"
+          },
+          {
+            "date": "2024-06-10",
+            "amount": 35.45,
+            "description": "Taxi fare"
+          }
+        ],
+        "Others": [
+          {
+            "date": "2024-06-07",
+            "amount": 130.33,
+            "description": "Miscellaneous expenses"
+          },
+          {
+            "date": "2024-07-01",
+            "amount": 123,
+            "description": "mom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0600",
+      "username": "user6",
+      "totalBudget": 774,
+      "categories": {
+        "Groceries": [
+          {
+            "date": "2024-06-06",
+            "amount": 250,
+            "description": "Lunch"
+          }
+        ],
+        "Entertainment": [
+          {
+            "date": "2024-05-31",
+            "amount": 100,
+            "description": "Movie"
+          }
+        ],
+        "Utilities": [],
+        "Others": [
+          {
+            "date": "2024-06-05",
+            "amount": 126,
+            "description": "trip"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4a20",
+      "username": "Abdul Rahman",
+      "totalBudget": 4654,
+      "categories": {
+        "Groceries": [
+          {
+            "date": "2024-06-01",
+            "amount": 150.75,
+            "description": "Weekly groceries"
+          },
+          {
+            "date": "2024-06-08",
+            "amount": 120,
+            "description": "Bi-weekly groceries"
+          },
+          {
+            "date": "2024-06-06",
+            "amount": 123,
+            "description": "Bread"
+          }
+        ],
+        "Entertainment": [
+          {
+            "date": "2024-06-05",
+            "amount": 200,
+            "description": "Concert tickets"
+          }
+        ],
+        "Utilities": [
+          {
+            "date": "2024-06-03",
+            "amount": 75,
+            "description": "Electricity bill"
+          },
+          {
+            "date": "2024-06-02",
+            "amount": 50,
+            "description": "Monthly bus pass"
+          },
+          {
+            "date": "2024-06-10",
+            "amount": 20,
+            "description": "Taxi fare"
+          }
+        ],
+        "Others": [
+          {
+            "date": "2024-06-07",
+            "amount": 100,
+            "description": "Miscellaneous expenses"
+          },
+          {
+            "date": "2024-07-01",
+            "amount": 123,
+            "description": "mom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5f70",
+      "username": "user",
+      "totalBudget": 4377,
+      "categories": {
+        "Groceries": [
+          {
+            "date": "2024-12-31",
+            "amount": 123,
+            "description": "Random"
+          }
+        ],
+        "Entertainment": [],
+        "Utilities": [],
+        "Others": []
+      }
+    }
+  ]
+}
