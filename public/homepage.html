@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- Bootstrap Integration-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons Integration -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="../styles/homepage.css">
+    <script src="../src/data-fetch.js"></script>
+    <script src="../src/auth.js"></script>
+</head>
+<body class="container-fluid">
+    <div class="container">
+        <div class="bg bg-dark text-white heading row">
+            <div class="col-12">
+                <h1><span class="bi bi-currency-rupee"></span>Personal Finance Manager</h1>
+            </div>
+            <div class="row d-flex align-items-center justify-content-between p-2">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div id="username"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="logout">
+                        <button class="logout-btn" onclick="logout()">logout &nbsp;<span class="bi bi-power"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <li style="list-style: none;"><a href="dashboard.html"><span class="bi bi-window"> </span>Dashboard</a></li>
+            </div>
+            <div class="col-4">
+                <li style="list-style: none;"><a href="homepage.html"><span class="bi bi-ui-checks"> </span>Expenses</a></li>
+            </div>
+            <div class="col-4">
+                <li style="list-style: none;"><a href="about.html"><span class="bi bi-person"> </span>About</a></li>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="top-section" style="display: none;">
+        <div class="box">
+            <h2>Budget</h2>
+            <div id="budget">₹ 0.00</div>
+            <!-- <button class="credit-btn" onclick="creditAmount()">Credit Amount</button> -->
+        </div>
+        <div class="box">
+            <h2>Groceries</h2>
+            <div id="groceries">₹ 0.00</div>
+        </div>
+        <div class="box">
+            <h2>Entertainment</h2>
+            <div id="entertainment">₹ 0.00</div>
+        </div>
+        <div class="box">
+            <h2>Utilities</h2>
+            <div id="utilities">₹ 0.00</div>
+        </div>
+        <div class="box">
+            <h2>Others</h2>
+            <div id="others">₹ 0.00</div>
+        </div>
+    </div>
+
+    <!-- Common Section Ends here-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="body-section">
+                    <div class="expenses-list container-fluid">
+                        <h2>Expenses List</h2>
+                        <table class="container-fluid">
+                            <thead>
+                                <tr>
+                                    <th>Category</th>
+                                    <th>Purpose</th>
+                                    <th>Amount</th>
+                                    <th>Date</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+                                </tr>            
+                            </thead>
+                            <tbody id="expense-table-body">
+                
+                            </tbody>
+                            <tfoot>
+                                <td></td>
+                                <td>Total:</td>
+                                <td id="total-amount">k</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tfoot>
+                        </table>
+                        <hr>
+                    </div>
+                    <div class="card" id="expense-card" style="display: none;"> 
+                        <h3 id="expense-card-title">Add expense</h3>
+                        <dl>
+                            <dt>Amount spent</dt>
+                            <dd><input type="text" id="expense-amount"></dd>
+                            <dt>Purpose</dt>
+                            <dd><input type="text" id="expense-purpose"></dd>
+                            <dt>Date</dt>
+                            <dd><input type="date" id="expense-date"></dd>
+                            <dt>Category</dt>
+                            <dd>
+                                <select id="expense-category">
+                                    <option value="" selected disabled>Select a category</option>
+                                    <option value="Groceries">Groceries</option>
+                                    <option value="Entertainment">Entertainment</option>
+                                    <option value="Utilities">Utilities</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </dd>
+                        </dl>
+                        <button id="add-expense-button">Add</button>
+                    </div>
+                    <button id="show-expense-card-button" onclick="toggleCard()">
+                        <span id="arrow" class="bi bi-pencil"></span>
+                    </button>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Integration -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

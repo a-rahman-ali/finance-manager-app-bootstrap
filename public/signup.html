@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <!-- Bootstrap Integration-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons Integration -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="../src/signup.js"></script>
+    <script src="../src/validations.js"></script>
+    <title>Sign Up Page</title>
+</head>
+<body class="container-fluid">
+    <section class="head">
+        <h1 class="bg-dark text-white rounded rounded-2 p-3 m-1 text-center"><span class="bi bi-currency-rupee"></span>Personal Finance Manager</h1>
+    </section>
+    <h4 class="text-danger text-center mt-3 mb-0 fw-bold userexists" id="existsmessage" style="display: none">User Already Exists</h4>
+    <div class="d-flex justify-content-center align-items-center" class="login-form" style="height: 500px;">
+        <form class="border border-1 border-dark rounded rounded-2 p-4 m-1 w-100" class="signup-form" style="max-width: 400px;">
+            <h3 class="text-center fw-bold"><span class="bi bi-person"></span>User Signup</h3>
+            <dl>
+                <dt class="form-label">User Name</dt>
+                <dd><input type="text" class="form-control" onblur="validateUsername()" id="username"></dd>
+                <span id="usernamemsg"></span>
+                <dt class="form-label">Email</dt>
+                <dd><input type="email" class="form-control" onblur="validateEmail()" id="email"></dd>
+                <span id="emailmsg"></span>
+                <dt class="form-label">Password</dt>
+                <dd><input type="password" class="form-control" onblur="validatePassword()" id="password"></dd>
+                <span id="pwdmsg"></span>
+            </dl>
+            <button class="btn btn-dark text-white w-100 fw-bold p-2" onclick="signup(event)">Sign up</button>
+            <p class="ms-3 mt-3">Already have an account? <a href="index.html">Login</a></p>
+        </form>
+    </div>
+
+    <!-- Bootstrap Integration -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
